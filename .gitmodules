@@ -1,3 +1,12 @@
 [submodule "src/src/OJT_SCBOT"]
 	path = src/src/OJT_SCBOT
 	url = https://github.com/LeeSC427/OJT_SCBOT.git
+[submodule "src/dynamixel-workbench-msgs"]
+	path = src/dynamixel-workbench-msgs
+	url = https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs
+[submodule "src/dynamixel-workbench"]
+	path = src/dynamixel-workbench
+	url = https://github.com/ROBOTIS-GIT/dynamixel-workbench
+[submodule "src/DynamixelSDK"]
+	path = src/DynamixelSDK
+	url = https://github.com/ROBOTIS-GIT/DynamixelSDK
