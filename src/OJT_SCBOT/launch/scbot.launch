@@ -1,0 +1,13 @@
+<launch>
+    <node name="connection" pkg="connection" type="connection_node">
+        <param name="speed" type="double" value="4.0" />
+        <param name="R_speed" type="double" value="0.5" />
+        <param name="wheel_dist" type="double" value="0.5" />
+        <param name="port_name" type="string" value="/dev/ttyUSB1" />
+    </node>
+
+    <node respawn="true" pkg="joy" type="joy_node" name="turtle_joy" >
+    <param name="dev" type="string" value="/dev/input/js0" />
+    <param name="deadzone" value="0.12" />
+  </node>
+</launch>

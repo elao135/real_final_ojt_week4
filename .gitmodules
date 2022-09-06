@@ -1,0 +1,3 @@
+[submodule "src/src/OJT_SCBOT"]
+	path = src/src/OJT_SCBOT
+	url = https://github.com/LeeSC427/OJT_SCBOT.git

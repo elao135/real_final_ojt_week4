@@ -1,0 +1,17 @@
+<launch>
+    <node name="connection" pkg="connection" type="connection_node">
+        <param name="speed" type="double" value="0.3" />
+        <param name="R_speed" type="double" value="0.2" />
+        <param name="wheel_dist" type="double" value="0.5" />
+        <param name="port_name" type="string" value="/dev/wheel_motor" />
+    </node>
+
+    <node respawn="true" pkg="joy" type="joy_node" name="scbot_joy" >
+    <param name="dev" type="string" value="/dev/input/js0" />
+  </node>
+
+  <node name="cmd_pub" pkg="whCtrl_pkg" type="cmd_pub" />
+
+  <include file ="$(find dynamixel_workbench_controllers)/launch/dynamixel_controllers.launch"/>
+  <node pkg="dynamixel" type="dynamixel_node" name="dynamixel_node" />
+</launch>

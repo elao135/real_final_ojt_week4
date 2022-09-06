@@ -1,0 +1,8 @@
+prefix=/home/cona/final_ojt/devel
+
+Name: connection
+Description: Description of connection
+Version: 0.0.0
+Cflags: -I/home/cona/final_ojt/src/OJT_SCBOT/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs roscpp rospy std_msgs
