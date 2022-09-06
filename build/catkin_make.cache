@@ -1,2 +1,0 @@
-OJT_SCBOT:whCtrl_pkg
--DCATKIN_DEVEL_PREFIX=/home/cona/final_ojt/devel -DCMAKE_INSTALL_PREFIX=/home/cona/final_ojt/install -G Unix Makefiles

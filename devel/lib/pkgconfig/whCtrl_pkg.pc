@@ -1,8 +1,0 @@
-prefix=/home/cona/final_ojt/devel
-
-Name: whCtrl_pkg
-Description: Description of whCtrl_pkg
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
